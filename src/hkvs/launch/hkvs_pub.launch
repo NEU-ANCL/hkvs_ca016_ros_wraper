@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="hkvs" type="hkvs_pub" name="hkvs_pub" output="screen"/>
+  <node pkg="hkvs" type="hkvs_sub" name="hkvs_sub" output="screen"/> 
+</launch>

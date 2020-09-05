@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Get the executable's absolute path
+DIRNAME=`dirname $0`
+
+cd $DIRNAME
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/MVS/bin
+
+export XMODIFIERS="@im=ibus"
+export GTK_IM_MODULE=ibus
+export XIM_PROGRAM=ibus
+export XIM=ibus
+export QT_IM_MODULE=ibus
+
+./MVS_IP_Config
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Get the executable's absolute path
+DIRNAME=`dirname $0`
+
+cd $DIRNAME
+
+
+export LD_LIBRARY_PATH=/opt/MVS/bin
+
+
+
+./MVSApp
+

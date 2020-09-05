@@ -1,0 +1,5 @@
+bool gimbal_finish_left_nine1
+bool gimbal_finish_right_nine1
+bool finish_climbing1
+bool finish_follow1
+bool deduce_blood1
